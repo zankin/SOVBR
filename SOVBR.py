@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.linalg import norm as norm
 
-class SVBR:
+class SOVBR:
     """
     Main class
     """
@@ -105,7 +105,7 @@ class SVBR:
         lam : float
             Hyperparameter that governs the sparsity of the solution
         mode: str
-            Mode of operation
+            Mode of operation: 'monolithic' or 'approximate_online' 
         delta : 
             Hyperparameter
         T : int
